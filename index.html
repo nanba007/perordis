@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Percentage & Discount Toolkit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Percentage & Discount Toolkit</h1>
+
+    <div class="box">
+        <h2>Percentage Calculator</h2>
+
+        <input type="number" id="number"
+        placeholder="Enter number">
+
+        <input type="number" id="percent"
+        placeholder="Enter percentage">
+
+        <button onclick="calculatePercentage()">
+            Calculate Percentage
+        </button>
+
+        <p id="result1"></p>
+    </div>
+
+    <div class="box">
+        <h2>Discount Calculator</h2>
+
+        <input type="number" id="price"
+        placeholder="Enter price">
+
+        <input type="number" id="discount"
+        placeholder="Enter discount %">
+
+        <button onclick="calculateDiscount()">
+            Calculate Discount
+        </button>
+
+        <p id="result2"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
